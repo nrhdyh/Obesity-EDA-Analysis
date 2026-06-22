@@ -16,7 +16,7 @@ st.set_page_config(
 # -----------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("ObesityDataSet_raw_and_data_sinthetic.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/nrhdyh/Obesity-EDA-Analysis/refs/heads/main/ObesityDataSet_raw_and_data_sinthetic.csv")
     return df
 
 df = load_data()
